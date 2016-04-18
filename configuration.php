@@ -7,20 +7,20 @@ class JConfig {
 	public $sitename = 'Tu Phan';
 	public $editor = 'jce';
 	public $captcha = '0';
-	public $list_limit = '20';
+	public $list_limit = '100';
 	public $access = '1';
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
 	public $host = 'localhost';
-	public $user = 'tuphan_newdb';
-	public $password = 'vr1ht6MFSSX';
-	public $db = 'tuphan_newdb';
+	public $user = 'root';
+	public $password = '';
+	public $db = 'tuphan';
 	public $dbprefix = 'tp_';
 	public $live_site = '';
 	public $secret = 'HEt4Q9dlO1iZGZL8';
 	public $gzip = '0';
-	public $error_reporting = 'default';
+	public $error_reporting = 'simple';
 	public $helpurl = 'https://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
 	public $ftp_host = '';
 	public $ftp_port = '';
@@ -50,12 +50,12 @@ class JConfig {
 	public $MetaVersion = '0';
 	public $robots = '';
 	public $sef = '1';
-	public $sef_rewrite = '0';
+	public $sef_rewrite = '1';
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
-	public $feed_limit = '10';
-	public $log_path = '/home/tuphan/public_html/logs';
-	public $tmp_path = '/home/tuphan/public_html/tmp';
+	public $feed_limit = '30';
+	public $log_path = 'E:\\ROOT\\tuphan/logs';
+	public $tmp_path = 'E:\\ROOT\\tuphan/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
 	public $memcache_persist = '1';
@@ -89,4 +89,5 @@ class JConfig {
 	public $cookie_domain = '';
 	public $cookie_path = '';
 	public $asset_id = '1';
+	public $cache_platformprefix = '0';
 }
